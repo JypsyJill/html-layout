@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    padding: 25px
+    padding: 25px;
 }
+
+
 .top-box {
     width: 100%;
     border: 5px solid black;
@@ -12,18 +14,20 @@ body {
     height: 150px;
     width: 50px;
     background-color: blueviolet;
-    display: inline-block
+    display: inline-block;
 }
 .placemat {
     height: 200px;
     width: 400px;
     background-color: forestgreen;
     margin: 0 50px;
+    display: inline-block;
 }
 .plate {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    background-color: skyblue;
     display: inline-block;
 }
 .middle-box {
@@ -38,6 +42,16 @@ body {
     width: 100%;
     background-color: lemonchiffon;
     box-shadow: 5px 10px black;
+}
+.lower-box {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    box-shadow: 3px 5px gray;
+
 }
 .lower-box h1 {
     width: 100%;
