@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 25px
+}
+.top-box {
+    width: 100%;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.napkin {
+    height: 150px;
+    width: 50px;
+    background-color: blueviolet;
+    display: inline-block
+}
+.placemat {
+    height: 200px;
+    width: 400px;
+    background-color: forestgreen;
+    margin: 0 50px;
+}
